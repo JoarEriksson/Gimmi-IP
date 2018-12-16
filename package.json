@@ -1,0 +1,26 @@
+{
+  "name": "gimme-ip",
+  "version": "1.0.1",
+  "description": "A quick way to grab your ip-address from CLI ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JoarEriksson/Gimmi-IP.git"
+  },
+  "author": "Joar Eriksson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JoarEriksson/Gimmi-IP/issues"
+  },
+  "homepage": "https://github.com/JoarEriksson/Gimmi-IP#readme",
+  "dependencies": {
+    "request": "^2.88.0"
+  },
+  "bin": {
+    "gimme-ip": "./bin/run.cmd"
+  }
+}
